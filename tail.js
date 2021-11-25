@@ -6,9 +6,9 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-function tail(assertEqual){
-  return (assertEqual.splice(1, assertEqual.length - 1))
-};
+function tail(assertEqual) {
+  return (assertEqual.splice(1, assertEqual.length - 1));
+}
 
 
 // [1, 2, 3] === [1, 2, 3] // => false
